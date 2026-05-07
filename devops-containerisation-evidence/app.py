@@ -6,8 +6,8 @@ app = Flask(__name__)
 def home():
     return """
     <h1>DevOps Containerisation Evidence</h1>
-    <p>This Python Flask application is running inside a Docker container.</p>
-    <p>This supports my PDP goal of developing foundational DevOps skills.</p>
+    <p>This is a Python Flask application which is running inside a Docker container.</p>
+    <p>This is evidence that supports my PDP goal of developing foundational DevOps skills.</p>
     """
 
 if __name__ == "__main__":
